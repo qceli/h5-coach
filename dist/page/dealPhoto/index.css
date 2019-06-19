@@ -1,0 +1,48 @@
+.bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+}
+.logo-img {
+    width: 100%;
+    margin-top: 50px;
+}
+.logo-img img {
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: 0 auto;
+}
+.people-img {
+    width: 75%;
+    margin: 30px auto 0;
+    text-align: center;
+}
+.people-img img {
+    width: 100%;
+}
+.btn-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn-box .btn {
+    margin-right: 30px;
+    background: #000;
+    color: #fff;
+    width: 120px;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+.btn-box .last {
+    margin-right: 0;
+}

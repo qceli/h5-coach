@@ -1,0 +1,96 @@
+.bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+}
+.logo-img {
+    width: 100%;
+    margin-top: 50px;
+}
+.logo-img img {
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: 0 auto;
+}
+.photo-box {
+    width: 200px;
+    margin: 30px auto 0;
+    position: relative;
+    overflow: hidden;
+    font-size: 0;
+}
+.upload-photo {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    width: calc(100% - 1px);
+    height: 100%;
+}
+.photo-box>img {
+    width: 200px;
+}
+.photo-box .photo-bg {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photo-box .photo-bg img {
+    width: 100%;
+}
+.photo-box .star {
+    width: 80px;
+    position: absolute;
+    right: 14px;
+    top: 50px;
+    z-index: 1;
+}
+.photo-box .star img {
+    width: 100%;
+}
+.bg-list {
+    display: flex;
+    justify-content: center;
+}
+.bg-list .item {
+    width: 60px;
+    margin-right: 20px;
+}
+.bg-list .item img {
+    width: 100%;
+    background: #D3D3D4;
+}
+.bg-list .last {
+    margin-right: 0;
+}
+.btn-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn-box .btn {
+    margin-right: 30px;
+    background: #000;
+    color: #fff;
+    width: 120px;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+.btn-box .last {
+    margin-right: 0;
+}
