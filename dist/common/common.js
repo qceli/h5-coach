@@ -1,4 +1,4 @@
-const debug = true;
+const debug = false;
 Zepto(function($){
     function _parseJSON(str) {
         if (typeof str === 'undefined') {
